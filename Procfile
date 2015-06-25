@@ -1,1 +1,1 @@
-web: bundle exec puma -b unix:/tmp/logstash_app.sock
+web: bundle exec puma -b unix:///var/run/logstash_app.sock;
